@@ -1,4 +1,3 @@
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -18,7 +17,7 @@
 	integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ"
 	crossorigin="anonymous">
 
-<title>JSP 게시판 웹 사이트</title>
+<title>ToDoList</title>
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -29,12 +28,12 @@
 				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="main.jsp">JSP 게시판 웹 사이트</a>
+			<a class="navbar-brand" href="main.jsp">ToDoList</a>
 		</div>
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li><a href="main.jsp">메인</a></li>
+				<li><a href="main.jsp">카테고리</a></li>
 				<li><a href="bbs.jsp">게시판</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
@@ -53,7 +52,7 @@
 		<div class="col-lg-4">
 			<div class="jumbotron" style="padding-top: 20px;">
 				<form method="post" action="loginAction.jsp">
-					<h3 style="text-align: center;">로그인 화면</h3>
+					<h3 style="text-align: center;">로그인</h3>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="아이디"
 							name="userID" maxlength="20">
